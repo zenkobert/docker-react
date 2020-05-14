@@ -6,6 +6,7 @@ COPY . .
 RUN npm run build
 
 FROM nginx
+EXPOSE 80
 # after copy the build folder, everything else in the
 # builder phase is automatically removed (to keep the size small)
 COPY --from=builder /app/build /usr/share/nginx/html
