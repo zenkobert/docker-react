@@ -12,9 +12,9 @@ deploy:
   provider: elasticbeanstalk
   region: "ap-southeast-1"
   app: "docker-react"
-  env: "DockerReact-env"
-  bucker_name: "elasticbeanstalk-ap-southeast-1-498093216196"
-  bucker_path: "docker-react"
+  env: "DockerReact-env-1"
+  bucket_name: "elasticbeanstalk-ap-southeast-1-498093216196"
+  bucket_path: "docker-react"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
