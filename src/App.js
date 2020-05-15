@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi Zenk
+          Hi this is Docker-React app integrated with Travis CI and AWS Beanstalk
         </p>
         <a
           className="App-link"
